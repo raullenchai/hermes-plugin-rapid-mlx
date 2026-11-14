@@ -1,0 +1,30 @@
+Loaded provider: rapid-mlx
+/install complete None
+/download complete mlx-community/Qwen3-0.6B-4bit
+Library: ['mlx-community/Qwen3-0.6B-4bit']
+Started verified PID 72289 at http://127.0.0.1:8480/v1
+/v1/models: [{"id": "mlx-community/Qwen3-0.6B-4bit", "object": "model", "created": 1794630791, "owned_by": "rapid-mlx", "recommended_sampling": null, "is_hybrid": false, "is_moe": false, "tool_call_parser": "hermes", "reasoning_parser": "qwen3", "modality": "text", "serving_lane": "text", "serving_lane_reason": "text_checkpoint", "concurrent_text_requests": true, "context_window": 40960, "max_model_len": 40960, "capabilities": ["text", "tools"], "audio_lanes": null, "speculative_decoding": null, "fallback_model": null, "min_memory_gb": null}]
+Unauthenticated /v1/models refused: 401
+/activate complete {'model_id': 'mlx-community/Qwen3-0.6B-4bit', 'scope': 'profile-default', 'live_chat_changed': False}
+Use persisted profile selection: rapid-mlx mlx-community/Qwen3-0.6B-4bit
+Guarded provider response: Hi! I'm here to help you with your questions. Let me know how I can assist you!
+Hermes CLI command: hermes chat --provider rapid-mlx -m mlx-community/Qwen3-0.6B-4bit --toolsets '' --max-turns 1 -q <greeting>
+Query: Reply with a short greeting. Do not use tools.
+
+────────────────────────────────────────
+☤ Hermes
+Hello! I'm Hermes Agent. What can I help you with?
+────────────────────────────────────────
+
+Resume this session with:
+  hermes --resume local-b3edff5b9b3bb91d6918290d9baee8ca5b2bc2f12b1bccd4c0003330de872290
+
+Session:        local-b3edff5b9b3bb91d6918290d9baee8ca5b2bc2f12b1bccd4c0003330de872290
+Duration:       4s
+Messages:       2 (1 user, 0 tool calls)
+
+Turn off completed; restarting immediately
+/start complete None
+Restarted verified PID: 73127
+Stopped managed PID: 73127 state: {}
+Test port is closed

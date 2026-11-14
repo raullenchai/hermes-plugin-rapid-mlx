@@ -1,0 +1,11 @@
+{
+  "name": "rapid-mlx",
+  "label": "Local Models · Rapid-MLX",
+  "description": "Manage the private Apple Silicon Rapid-MLX runtime and public MLX model snapshots.",
+  "icon": "Cpu",
+  "version": "0.1.0",
+  "tab": {"path": "/rapid-mlx", "position": "after:models"},
+  "entry": "dist/index.js",
+  "css": "dist/style.css",
+  "api": "plugin_api.py"
+}
